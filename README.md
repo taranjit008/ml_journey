@@ -32,10 +32,10 @@ This repoitory document my journey from python and mathematics fundamentals to M
 
 ## Progress
 
-- [x] Started Linear algebra
+- [x] Linear algebra
 - [x] NumPy
-- [] Pandas
-- [] Matplotlib
+- [x] Pandas
+- [x] Started Matplotlib
 - [] Scikit-learn
 - [] Probability and statistics
 - [] PyTorch

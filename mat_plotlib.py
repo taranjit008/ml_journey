@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -46,3 +47,21 @@ plt.show()
 
 
 ### Bar Charts
+
+labels=['A', 'B' , 'C']
+values=[3,2,6,]
+
+bars= plt.bar(labels,values)#bar chart
+plt.figure(figsize=[10,5],dpi=300)
+#plt.xlabel("X-axis",fontdict={'color':'r','fontsize':10})
+#plt.ylabel("Y-axis",fontdict={'color':'r','fontsize':10})
+
+bars[0].set_hatch('/')#pattern in bars
+bars[1].set_hatch('\\')
+bars[2].set_hatch('|')
+
+##or :
+#patterns=['/','\\','|']
+#for bar in bars:
+#      bar.set_hatch(patterns.pop(0))##here pop(0) tells to take pattern values from start .
+plt.show()

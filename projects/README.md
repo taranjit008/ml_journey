@@ -10,7 +10,7 @@ This folder contains my machine learning, data analysis, and python projects bui
 
 ## Projects
 
-### 1.Crypto Analysis
+### 1. Crypto Analysis
 - Analyze Bitcoin(BTC) historical data.
 - Extract yearly information using pandas.
 - Calculate yearly average opening prices.

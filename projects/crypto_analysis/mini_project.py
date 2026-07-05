@@ -17,7 +17,7 @@ plt.title("BTC Opening price average",fontdict={'fontname':'Comic Sans MS','font
 plt.xlabel("Year",fontdict={'fontname':'Comic Sans MS','fontsize':10,'color':'red'})
 plt.ylabel("Opening Price(USD)",fontdict={'fontname':'Comic Sans MS','fontsize':10,'color':'red'})
 plt.tight_layout()#it automatically adjusts the size , that so every label etc. will be visible
-plt.savefig("Line_chart_BTC_Opening_price_average.png",dpi=300)
+plt.savefig("Line_chart_BTC_Opening_price_average.png", dpi=300)
 plt.show()
 
 ##Bar graph
@@ -27,5 +27,5 @@ plt.title("BTC Opening price average",fontdict={'fontname':'Comic Sans MS','font
 plt.xlabel("Year",fontdict={'fontname':'Comic Sans MS','fontsize':10,'color':'red'})
 plt.ylabel("Opening price(USD)",fontdict={'fontname':'Comic Sans MS','fontsize':10,'color':'red'})
 plt.tight_layout()
-plt.savefig("Bar_chart_BTC_Opening_price_average.png",dpi=300)
+plt.savefig("Bar_chart_BTC_Opening_price_average.png", dpi=300)
 plt.show()

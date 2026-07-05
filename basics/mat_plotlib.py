@@ -39,7 +39,7 @@ plt.yticks([0,2,4,6,8,10,12,14,16])#set the positions of the ticks on the Y-axis
 
 plt.legend()
 
-plt.savefig('simple_graph.png',dpi=300)
+plt.savefig('simple_graph.png', dpi=300)
 
 plt.show()
 #plt.show print/show the graph
